@@ -1,11 +1,7 @@
-import Toggle from './components/Toggle';
+import { useState } from 'react';
 
 const App = () => {
-	return (
-		<div>
-			<Toggle />
-		</div>
-	);
+	return <div></div>;
 };
 
 export default App;
