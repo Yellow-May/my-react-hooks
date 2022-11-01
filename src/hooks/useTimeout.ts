@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef } from 'react';
 
-const useTimeout = (cb: () => void, delay: number) => {
+const useTimeout = (cb: (...args: any) => void, delay: number) => {
 	const cbRef = useRef(cb);
 	const timeoutRef = useRef<number>();
 
